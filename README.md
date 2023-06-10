@@ -2,6 +2,9 @@
 
 The Interactive World Map is an Angular application that allows users to explore different countries on an SVG map and view relevant information about each country. It retrieves country data from the GeoNames and World Bank APIs to provide detailed information such as country name, capital, region, income level, and more.
 
+#### View Live Projeck
+https://angular-interactive-map.netlify.app
+
 ## Features
 
 - Interactive SVG map of the world.
