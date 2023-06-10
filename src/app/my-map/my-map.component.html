@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row">
+    <div class="right">
+      <div class="map" #mapContainer></div>
+    </div>
+    <div class="left">
+      <h4>Country info</h4>
+      <div class="country-info" *ngIf="selectedCountryInfo">
+        <h3>
+          <span class="title">Country Name:</span><br>
+          <strong><span>{{ selectedCountryInfo.name }}</span></strong>
+        </h3>
+        <h3>
+          <span class="title">Capital:</span><br>
+          <strong><span>{{ selectedCountryInfo.capital }}</span></strong>
+        </h3>
+        <h3>
+          <span class="title">Region:</span><br>
+          <strong><span>{{ selectedCountryInfo.region }}</span></strong>
+        </h3>
+        <h3>
+          <span class="title">Income Level:</span><br>
+          <strong><span>{{ selectedCountryInfo.incomeLevel }}</span></strong></h3>
+        <h3>
+          <span class="title">iso2Code:</span><br>
+          <strong><span>{{ selectedCountryInfo.iso2Code }}</span></strong></h3>
+        <h3>
+          <span class="title">Lending Type:</span><br>
+          <strong><span>{{ selectedCountryInfo.lendingType }}</span></strong></h3>
+      </div>
+    </div>
+  </div>
+</div>
