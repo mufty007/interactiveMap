@@ -1,27 +1,59 @@
-# InteractiveMap
+# Interactive World Map
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+The Interactive World Map is an Angular application that allows users to explore different countries on an SVG map and view relevant information about each country. It retrieves country data from the GeoNames and World Bank APIs to provide detailed information such as country name, capital, region, income level, and more.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Interactive SVG map of the world.
+- Country information displayed in a separate column.
+- Dynamic data retrieval from GeoNames and World Bank APIs.
+- Clicking on a country highlights it on the map and displays detailed information.
+- Responsive design for optimal viewing on different devices.
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the repository:
 
-## Build
+    ```
+    git clone https://github.com/your-username/interactive-world-map.git
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Navigate to the project directory:
+  ```
+    cd interactive-world-map
+  ```
 
-## Running unit tests
+3. Install the dependencies:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    ```
+    npm install
+    ```
 
-## Running end-to-end tests
+4. Run the application (http://localhost:4200):
+  ```
+    npm start
+  ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Usage
+  - Open the application in your web browser.
+  - Explore the interactive map by clicking on different countries.
+  - The selected country's information will be displayed in the right column.
 
-## Further help
+### Dependencies
+  - Angular: version X.X.X
+  - Angular CLI: version X.X.X
+  - Other dependencies...
+  - API References
+  - GeoNames API
+  - World Bank API
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Contributing
+  Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+### License
+  - This project is licensed under the **MIT License**.
+
+### Acknowledgments
+  - SVG map source: https://simplemaps.com/resources/svg-world - _must edit the code in the svg, or use the onse i already have in the project_
+  - GeoNames API: http://www.geonames.org/export/web-services.html  
+  - World Bank API: https://documents.worldbank.org/en/publication/documents-reports/api
